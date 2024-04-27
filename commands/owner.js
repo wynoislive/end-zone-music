@@ -1,18 +1,11 @@
 /*
 
-  ________.__                        _____.___.___________
- /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
-/   \  ___|  | \__  \ _/ ___\/ __ \   /   |   |  |    |   
-\    \_\  \  |__/ __ \\  \__\  ___/   \____   |  |    |   
- \______  /____(____  /\___  >___  >  / ______|  |____|   
-        \/          \/     \/    \/   \/                  
-
 ╔════════════════════════════════════════════════════════════════════════╗
 ║                                                                        ║
-║  ## Created by GlaceYT!                                                ║
+║  ## Created by WYNO LIVE!                                              ║
 ║  ## Feel free to utilize any portion of the code                       ║
-║  ## DISCORD :  https://discord.com/invite/xQF9f9yUEM                   ║
-║  ## YouTube : https://www.youtube.com/@GlaceYt                         ║
+║  ## DISCORD :  https://discord.gg/gpcPcJwPsF                           ║
+║  ## YouTube : https://www.youtube.com/@ENDZONEYT22.                    ║
 ║                                                                        ║
 ╚════════════════════════════════════════════════════════════════════════╝
 
@@ -22,15 +15,15 @@ const { ApplicationCommandOptionType } = require('discord.js');
 const db = require("../mongoDB");
 
 module.exports = {
-  name: "owner",
+  name: "WYNOLIVE",
   description: "Get information about bot owner.",
   permissions: "0x0000000000000800",
   options: [],
 
   run: async (client, interaction) => {
     try {
-      const youtubeLink = 'https://discord.gg/xQF9f9yUEM';
-      const InstagramLink = 'https://www.instagram.com/rtxxgg/';
+      const youtubeLink = 'https://www.youtube.com/@Scarylive0001';
+      const InstagramLink = '';
       const { EmbedBuilder } = require('discord.js')
         const embed = new EmbedBuilder()
             .setColor('#da2a41')
@@ -50,21 +43,13 @@ module.exports = {
 };
 /*
 
-  ________.__                        _____.___.___________
- /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
-/   \  ___|  | \__  \ _/ ___\/ __ \   /   |   |  |    |   
-\    \_\  \  |__/ __ \\  \__\  ___/   \____   |  |    |   
- \______  /____(____  /\___  >___  >  / ______|  |____|   
-        \/          \/     \/    \/   \/                  
-
 ╔════════════════════════════════════════════════════════════════════════╗
 ║                                                                        ║
-║  ## Created by GlaceYT!                                                ║
+║  ## Created by WYNO LIVE!                                              ║
 ║  ## Feel free to utilize any portion of the code                       ║
-║  ## DISCORD :  https://discord.com/invite/xQF9f9yUEM                   ║
-║  ## YouTube : https://www.youtube.com/@GlaceYt                         ║
+║  ## DISCORD :  https://discord.gg/gpcPcJwPsF                           ║
+║  ## YouTube : https://www.youtube.com/@ENDZONEYT22.                    ║
 ║                                                                        ║
 ╚════════════════════════════════════════════════════════════════════════╝
-
 
 */
